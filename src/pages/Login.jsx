@@ -145,33 +145,6 @@ export default function Login() {
             </Button>
           </form>
 
-          <div className="relative py-4">
-            <div className="absolute inset-0 flex items-center">
-              <div className="w-full border-t border-white/5"></div>
-            </div>
-            <div className="relative flex justify-center text-xs uppercase">
-              <span className="bg-[#120a10] px-2 text-dim tracking-widest">OR</span>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 gap-3">
-            <button className="glass-card gradient-border rounded-xl py-3 px-4 flex items-center justify-center gap-3 text-sm font-medium hover:shadow-[0_0_20px_rgba(0,242,255,0.15)] transition-all">
-              <img src="https://www.google.com/favicon.ico" className="w-4 h-4" alt="Google" />
-              Continue with Google
-            </button>
-          </div>
-
-          <div className="space-y-4 text-center">
-            <p className="text-sm text-muted">
-              Don't have an account?{' '}
-              <Link to="/signup" className="text-secondary hover:text-primary transition-colors font-semibold">
-                Sign up
-              </Link>
-            </p>
-            <Link to="/home" className="inline-block text-xs text-dim hover:text-muted transition-colors">
-              Continue without account →
-            </Link>
-          </div>
         </motion.div>
       </motion.div>
     </div>
