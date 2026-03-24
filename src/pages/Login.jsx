@@ -145,6 +145,17 @@ export default function Login() {
             </Button>
           </form>
 
+          <div className="space-y-4 text-center">
+            <p className="text-sm text-muted">
+              Don't have an account?{' '}
+              <Link to="/signup" className="text-secondary hover:text-primary transition-colors font-semibold">
+                Sign up
+              </Link>
+            </p>
+            <Link to="/home" className="inline-block text-xs text-dim hover:text-muted transition-colors">
+              Continue without account →
+            </Link>
+          </div>
         </motion.div>
       </motion.div>
     </div>

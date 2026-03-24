@@ -236,7 +236,6 @@ export default function Signup() {
             </Button>
           </form>
 
-        
           <p className="text-center text-sm text-muted">
             Already have an account?{' '}
             <Link to="/login" className="text-secondary hover:text-primary transition-colors font-semibold">
