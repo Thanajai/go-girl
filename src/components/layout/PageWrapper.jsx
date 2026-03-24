@@ -1,5 +1,6 @@
 import TopBar from './TopBar.jsx';
 import BottomNav from './BottomNav.jsx';
+import OfflineBanner from '../OfflineBanner.jsx';
 import { motion, useScroll, useTransform } from 'motion/react';
 import { Sparkles, ShieldCheck, Heart, Flower } from 'lucide-react';
 import { useRef } from 'react';
@@ -15,6 +16,7 @@ export default function PageWrapper({ children }) {
 
   return (
     <div ref={containerRef} className="min-h-screen bg-bg flex flex-col relative overflow-x-hidden">
+      <OfflineBanner />
       {/* Decorative Side Elements - Visible only on larger screens */}
       <div className="hidden lg:block fixed inset-0 pointer-events-none z-0">
         {/* Left Side Decorative Column */}

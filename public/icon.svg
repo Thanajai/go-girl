@@ -1,0 +1,28 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f72585" />
+      <stop offset="50%" stop-color="#7209b7" />
+      <stop offset="100%" stop-color="#3a0ca3" />
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2ff" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#00f2ff" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="128" fill="url(#bg-gradient)" />
+  
+  <!-- Shine Overlay -->
+  <rect width="512" height="512" rx="128" fill="url(#shine)" />
+  
+  <!-- Shield -->
+  <path d="M256 100 L380 140 V260 C380 360 256 420 256 420 C256 420 132 360 132 260 V140 Z" fill="rgba(255, 255, 255, 0.15)" />
+  
+  <!-- Text -->
+  <text x="256" y="290" font-family="serif" font-size="140" font-weight="bold" fill="white" text-anchor="middle">GG</text>
+  
+  <!-- Emoji -->
+  <text x="256" y="370" font-size="60" text-anchor="middle">🌸</text>
+</svg>

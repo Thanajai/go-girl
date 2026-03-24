@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import Card from '../components/ui/Card.jsx';
+import InstallBanner from '../components/InstallBanner.jsx';
 import { motion } from 'motion/react';
 
 export default function Home() {
@@ -60,6 +61,7 @@ export default function Home() {
       variants={containerVariants}
       className="flex flex-col gap-6"
     >
+      <InstallBanner />
       <motion.div variants={itemVariants} className="bg-soft rounded-2xl p-5">
         <h2 className="font-display text-2xl text-plum mb-1">Hi there 🌸</h2>
         <p className="text-muted text-sm">What do you need today?</p>
